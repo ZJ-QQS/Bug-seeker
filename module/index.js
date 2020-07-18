@@ -30,10 +30,10 @@ const vm = new Vue({
     },
     methods:{
         handleNavClick(index){
-            this.navActiveIndex === index
+            this.navActiveIndex = index
         },
         handleClick(){
-            this.navHide = ! this.navHide
+            this.navHide = !this.navHide
         },
         autoMove(){
             setTimeout(()=>{
